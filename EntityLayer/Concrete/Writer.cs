@@ -12,15 +12,15 @@ namespace EntityLayer.Concrete
         [Key]
         public int WriterId { get; set; }
         [StringLength(50)]
-        public int WriterName { get; set; }
+        public string WriterName { get; set; }
         [StringLength(50)]
-        public int WriterSurName { get; set; }
+        public string WriterSurName { get; set; }
         [StringLength(150)]
-        public int WriterImage { get; set; }
+        public string WriterImage { get; set; }
         [StringLength(50)]
-        public int WriterMail { get; set; }
+        public string WriterMail { get; set; }
         [StringLength(25)]
-        public int WriterPassword { get; set; }
+        public string WriterPassword { get; set; }
 
         //bire çok ilişki
         public ICollection<Heading> Headings { get; set; }
