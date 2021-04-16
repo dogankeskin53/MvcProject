@@ -1,0 +1,6 @@
+D:\dk\Github\mvcproject\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\dk\Github\mvcproject\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\dk\Github\mvcproject\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+D:\dk\Github\mvcproject\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\dk\Github\mvcproject\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\dk\Github\mvcproject\BusinessLayer\obj\Debug\BusinessLayer.pdb

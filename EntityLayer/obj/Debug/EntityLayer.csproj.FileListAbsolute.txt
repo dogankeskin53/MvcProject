@@ -1,0 +1,11 @@
+D:\dk\Github\mvcproject\EntityLayer\bin\Debug\EntityLayer.dll.config
+D:\dk\Github\mvcproject\EntityLayer\bin\Debug\EntityLayer.dll
+D:\dk\Github\mvcproject\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\dk\Github\mvcproject\EntityLayer\bin\Debug\EntityFramework.dll
+D:\dk\Github\mvcproject\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\dk\Github\mvcproject\EntityLayer\bin\Debug\EntityFramework.xml
+D:\dk\Github\mvcproject\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\dk\Github\mvcproject\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+D:\dk\Github\mvcproject\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+D:\dk\Github\mvcproject\EntityLayer\obj\Debug\EntityLayer.dll
+D:\dk\Github\mvcproject\EntityLayer\obj\Debug\EntityLayer.pdb
