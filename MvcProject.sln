@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation Layer", "MvcProject\Presentation Layer.csproj", "{133916A9-341F-417E-9AF7-4EB9D3F6A6AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "MvcProject\PresentationLayer.csproj", "{133916A9-341F-417E-9AF7-4EB9D3F6A6AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccesLayer", "DataAccesLayer\DataAccesLayer.csproj", "{D5F593B7-999A-4FDB-AFF1-6779BECDED4B}"
 EndProject
