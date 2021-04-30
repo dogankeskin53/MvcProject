@@ -1,0 +1,40 @@
+﻿@using EntityLayer.Concrete
+@*Model List verileri listelemek için kullanılan bileşen*@
+@model List<Category>
+
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kategori Listem</title>
+</head>
+<body>
+    <div>
+
+        <h3> Kategorilerim </h3>
+        <table class="table table-hover">
+            <tr>
+                <th>Kategori Id</th>
+                <th>Kategori Adı</th>
+                <th>Durum</th> 
+            </tr> 
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.CategoryId</td>
+                    <td>@item.CategoryName</td>
+                    <td>@item.CategoryStatus</td>
+                    <td><button class="btn btn-success"> Güncelle </button></td>
+                </tr>
+            } 
+        </table>
+    </div>
+</body>
+</html>
