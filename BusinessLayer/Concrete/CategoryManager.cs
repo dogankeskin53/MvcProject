@@ -15,21 +15,23 @@ namespace BusinessLayer.Concrete
         /// </summary>
         GenericRepository<Category> repoCategory = new GenericRepository<Category>();
 
-        public List<Category> GetAllBL()
+        public List<Category> GetAllCategoryBL()
         {
             return repoCategory.List();
         }
 
         public void CategoryAddBL(Category p)
         {
-            if (p.CategoryName=="" || p.CategoryName.Length < 3 || p.CategoryDescription=="" || p.CategoryName.Length > 50)
-            {
-                //Hata mesajı gelmesi lazım.
-            }
-            else
-            {
-                repoCategory.Insert(p);                
-            }
+            repoCategory.Insert(p);
+
+            //if (p.CategoryName=="" || p.CategoryName.Length < 3 || p.CategoryDescription=="" || p.CategoryName.Length > 50)
+            //{
+            //    //Hata mesajı gelmesi lazım.
+            //}
+            //else
+            //{
+            //    repoCategory.Insert(p);                
+            //}
         }
 
     }

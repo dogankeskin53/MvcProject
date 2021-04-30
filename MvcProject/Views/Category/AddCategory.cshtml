@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kategori Ekleme</title>
+    <br />
+</head> 
+<body>
+    @*input namede , veritabanı alanıyla aynı olmak zorunda.*@
+    <form class="form-group" method="post">
+        <input type="text" name="CategoryName" placeholder="Kategori Adı" class="form-control" />
+        <br />
+        <input type="text" name="CategoryDescription" placeholder="Açıklama" class="form-control" />
+        <br />
+
+        <button class="btn-info">Ekle</button>
+    </form>
+</body>
+</html>
