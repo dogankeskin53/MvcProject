@@ -340,3 +340,9 @@ ASALocalRun/
 healthchecksdb
 
 Upload/
+BusinessLayer/obj/Debug/BusinessLayer.csprojAssemblyReference.cache
+DataAccesLayer/obj/Debug/DataAccesLayer.csprojAssemblyReference.cache
+MvcProject/bin/MvcProject.dll
+MvcProject/bin/MvcProject.pdb
+MvcProject/obj/Debug/MvcProject.dll
+MvcProject/obj/Debug/MvcProject.pdb
