@@ -16,3 +16,5 @@ D:\dk\Github\mvcproject\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompile
 D:\dk\Github\mvcproject\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 D:\dk\Github\mvcproject\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\dk\Github\mvcproject\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\dk\Github\mvcproject\BusinessLayer\bin\Debug\FluentValidation.dll
+D:\dk\Github\mvcproject\BusinessLayer\bin\Debug\FluentValidation.xml

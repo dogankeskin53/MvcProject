@@ -1,4 +1,4 @@
-﻿
+﻿@model EntityLayer.Concrete.Category
 @{
     Layout = null;
 }
@@ -12,15 +12,44 @@
     <title>Kategori Ekleme</title>
     <br />
 </head> 
+
 <body>
+
+    @using (Html.BeginForm("AddCategory", "Category", FormMethod.Post))
+    {
+    <div class="form-group">
+
+        @Html.Label("Kategori Adı");
+        @Html.TextBoxFor(x => x.CategoryName);
+        @Html.ValidationMessageFor(x => x.CategoryName);
+
+        <br />
+        <br />
+        @Html.Label("Açıklama yazınız");
+        @Html.TextBoxFor(x => x.CategoryDescription);
+        @Html.ValidationMessageFor(x => x.CategoryDescription);
+        <br />
+        <br />
+        <button>Kaydet</button>
+    </div> 
+    }
+
+
+
+
+
+
     @*input namede , veritabanı alanıyla aynı olmak zorunda.*@
-    <form class="form-group" method="post">
+
+
+
+    <!--<form class="form-group" method="post">
         <input type="text" name="CategoryName" placeholder="Kategori Adı" class="form-control" />
         <br />
         <input type="text" name="CategoryDescription" placeholder="Açıklama" class="form-control" />
         <br />
 
         <button class="btn-info">Ekle</button>
-    </form>
+    </form>-->
 </body>
 </html>
