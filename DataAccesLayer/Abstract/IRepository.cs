@@ -15,6 +15,13 @@ namespace DataAccesLayer.Abstract
     /// <typeparam name="TEntity"></typeparam>
     public interface IRepository<TEntity>
     {
+        /// <summary>
+        /// filterden gelen id değeri ile ilgili kayıtı çekecez.
+        /// </summary>
+        /// <param name="filter"></param>
+        /// <returns></returns>
+        TEntity Get(Expression<Func<TEntity, bool>> filter);
+
         List<TEntity> List();
         /// <summary>
         /// Kategori Eklemek için

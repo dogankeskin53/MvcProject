@@ -39,7 +39,7 @@ namespace MvcProject.Controllers
             {
                 categoryManager.CategortAdd(p);
                 //action adına indexe yönlendir
-                return RedirectToAction("Index"); 
+                return RedirectToAction("Index");
             }
             else
             {
@@ -51,6 +51,14 @@ namespace MvcProject.Controllers
             }
 
             return View();
+        }
+
+        public ActionResult DeleteCategory(int id)
+        {
+            var categoryValue = categoryManager.GetById(id);
+            categoryManager.CategoryDelete(categoryValue);
+
+           return RedirectToAction("Index");
         }
     }
  

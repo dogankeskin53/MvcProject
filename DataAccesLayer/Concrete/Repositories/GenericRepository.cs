@@ -33,6 +33,11 @@ namespace DataAccesLayer.Concrete.Repositories
             c.SaveChanges();
         }
 
+        public TEntity Get(Expression<Func<TEntity, bool>> filter)
+        {
+            return _Object.SingleOrDefault(filter);
+        }
+
         public void Insert(TEntity p)
         {
             _Object.Add(p);
