@@ -57,8 +57,7 @@ namespace MvcProject.Controllers
         {
             var categoryValue = categoryManager.GetById(id);
             categoryManager.CategoryDelete(categoryValue);
-
-           return RedirectToAction("Index");
+            return RedirectToAction("Index");
         }
     }
  
